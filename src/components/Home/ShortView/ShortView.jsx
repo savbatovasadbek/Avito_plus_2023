@@ -19,7 +19,9 @@ export function ShortView() {
           <Text fontSize="18px" color="#805AD5">
             Это все не покидая таблицы.
           </Text>
-          <Button>Начните сейчас</Button>
+          <Button color="white" backgroundColor="#805AD5">
+            Начните сейчас
+          </Button>
         </Box>
         <Box bg="blue.500"></Box>
       </Grid>

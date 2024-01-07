@@ -1,5 +1,5 @@
-import { Box, Button, Grid, Text } from "@chakra-ui/react";
-
+import { Box, Button, Grid, Image, Text } from "@chakra-ui/react";
+import img from "../../../assets/images/videImg.png";
 export function ShortView() {
   return (
     <div>
@@ -19,11 +19,13 @@ export function ShortView() {
           <Text fontSize="18px" color="#805AD5">
             Это все не покидая таблицы.
           </Text>
-          <Button color="white" backgroundColor="#805AD5">
+          <Button color="white" backgroundColor="#805AD5" mt="56px">
             Начните сейчас
           </Button>
         </Box>
-        <Box bg="blue.500"></Box>
+        <Box>
+          <Image src={img} alt="img." />
+        </Box>
       </Grid>
     </div>
   );

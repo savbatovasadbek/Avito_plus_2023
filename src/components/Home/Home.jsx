@@ -1,12 +1,14 @@
 import { Header } from "./Header";
 import { ShortView } from "./ShortView";
+import { Works } from "./Works";
 
 const Home = () => {
   return (
-    <>
+    <div style={{ margin: "0 auto", width: "1280px" }}>
       <Header />
       <ShortView />
-    </>
+      <Works />
+    </div>
   );
 };
 

@@ -1,4 +1,4 @@
-import { Box, Image, Stack, Button } from "@chakra-ui/react";
+import { Box, Image, Stack, Button, Link } from "@chakra-ui/react";
 import logo from "../../../assets/images/icon_logo.svg";
 
 export const Header = () => {
@@ -6,7 +6,9 @@ export const Header = () => {
     <Box py={"20px"} mb={"20px"}>
       <Stack direction={"row"} align={"center"} justify={"space-between"}>
         <Box>
-          <Image src={logo} alt="Company logo" />
+          <Link href="./">
+            <Image src={logo} alt="Company logo" />
+          </Link>
         </Box>
         <Box>
           <Stack

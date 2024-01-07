@@ -3,7 +3,7 @@ import logo from "../../../assets/images/icon_logo.svg";
 
 export const Header = () => {
   return (
-    <Box py={"20px"} maxWidth={"1280px"} m={"0 auto"} as="section">
+    <Box py={"20px"} mb={"20px"}>
       <Stack direction={"row"} align={"center"} justify={"space-between"}>
         <Box>
           <Image src={logo} alt="Company logo" />

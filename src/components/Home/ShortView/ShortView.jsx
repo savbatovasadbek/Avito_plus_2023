@@ -6,10 +6,10 @@ export function ShortView() {
       ShortView
       <Grid templateColumns="repeat(2, 1fr)" gap={"106px"} alignItems="center">
         <Box>
-          <Text color="#171923" fontSize="48px">
+          <Text color="#171923" fontSize="48px" fontWeight="bold">
             Краткий обзор
           </Text>
-          <Text color="#805AD5" fontSize="48px">
+          <Text color="#805AD5" fontSize="48px" fontWeight="bold">
             — 120 секунд
           </Text>
           <Text fontSize="18px" mt="32px">

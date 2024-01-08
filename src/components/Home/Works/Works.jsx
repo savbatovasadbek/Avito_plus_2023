@@ -2,6 +2,7 @@ import { Box, Button, Grid, Image, Text } from "@chakra-ui/react";
 import img1 from "../../../assets/images/googleSheets.png";
 import img2 from "../../../assets/images/bg_image_work_box.png";
 import img3 from "../../../assets/images/cloud.svg";
+import img4 from "../../../assets/images/bg_image_work_bottom.png";
 
 export const Works = () => {
   return (
@@ -71,7 +72,13 @@ export const Works = () => {
           <Image src={img3} alt="img." mt="44px" />
         </Box>
       </Grid>
-      <Grid templateColumns="repeat(2,1fr)" gap="24px" mt="30px">
+      <Grid
+        templateColumns="repeat(2,1fr)"
+        gap="24px"
+        mt="30px"
+        backgroundImage={`url('${img4}')`}
+        p="32px"
+      >
         <Box>
           <Text color="#171923" fontSize="24px" fontWeight="bold" mb="16px">
             Статистика Авито
@@ -92,7 +99,7 @@ export const Works = () => {
         </Box>
         <Box display="flex" justifyContent="center" gap="10px">
           <Box>
-            <Box w="200px" p="12px" borderRadius={12} backgroundColor="blue">
+            <Box w="200px" p="12px" borderRadius={12} backgroundColor="white">
               <Box> Просмотры за 7 дней</Box>
               <Box>👀 783</Box>
               <Box> Icon 87.09%</Box>
@@ -102,31 +109,31 @@ export const Works = () => {
               w="200px"
               p="12px"
               borderRadius={12}
-              backgroundColor="blue"
               mt="20px"
               ml="10px"
+              backgroundColor="white"
             >
               <Box> Просмотры за 7 дней</Box>
-              <Box>👀 783</Box>
+              <Box>🔥 23%</Box>
               <Box> Icon 87.09%</Box>
             </Box>
           </Box>
           <Box mt="20px">
-            <Box w="200px" p="12px" borderRadius={12} backgroundColor="blue">
+            <Box w="200px" p="12px" borderRadius={12} backgroundColor="white">
               <Box> Просмотры за 7 дней</Box>
-              <Box>👀 783</Box>
+              <Box>💬 12</Box>
               <Box> Icon 87.09%</Box>
             </Box>
             <Box
               w="200px"
               p="12px"
               borderRadius={12}
-              backgroundColor="blue"
               mt="20px"
               ml="10px"
+              backgroundColor="white"
             >
               <Box> Просмотры за 7 дней</Box>
-              <Box>👀 783</Box>
+              <Box>💜 45</Box>
               <Box> Icon 87.09%</Box>
             </Box>
           </Box>

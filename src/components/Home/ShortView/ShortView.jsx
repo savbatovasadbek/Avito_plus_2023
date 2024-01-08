@@ -1,5 +1,6 @@
 import { Box, Button, Grid, Image, Text } from "@chakra-ui/react";
 import img from "../../../assets/images/videImg.png";
+import { BsFillLightningChargeFill } from "react-icons/bs";
 export function ShortView() {
   return (
     <div>
@@ -19,12 +20,18 @@ export function ShortView() {
           <Text fontSize="18px" color="#805AD5">
             Это все не покидая таблицы.
           </Text>
-          <Button color="white" backgroundColor="#805AD5" mt="56px">
+          <Button
+            leftIcon={<BsFillLightningChargeFill />}
+            colorScheme="teal"
+            bg={"#805AD5"}
+            variant="solid"
+            mt="56px"
+          >
             Начните сейчас
           </Button>
         </Box>
         <Box>
-          <Image src={img} alt="img." />
+          <Image src={img} alt="img" />
         </Box>
       </Grid>
     </div>

@@ -1,5 +1,6 @@
 import { Header } from "./Header";
 import Main from "./Main/Main";
+import Service from "./Service/Service";
 import { ShortView } from "./ShortView";
 import { Works } from "./Works";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Main />
       <ShortView />
+      <Service />
       <Works />
     </div>
   );
